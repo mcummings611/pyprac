@@ -6,7 +6,7 @@ def roll_dice():
     for x in range(0, rollCount):
         print("----------------")
         roll = str(random.randrange(1, die + 1))
-        print("You have rolled a " + roll + ".")
+        print(f"You have rolled a {roll}.")
         print("----------------")
 
 roll_dice()
